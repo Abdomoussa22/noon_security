@@ -50,7 +50,7 @@ export default function Hero() {
             leading-tight
           "
         >
-          مؤسسة شبكة نون للأنظمة الأمنية
+           شبكة نون للأنظمة الأمنية
         </motion.h1>
 
         {/* DESCRIPTION */}

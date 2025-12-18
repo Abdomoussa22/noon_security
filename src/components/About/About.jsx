@@ -37,7 +37,7 @@ export default function About() {
           </h2>
 
           <p className="text-lg text-gray-700 leading-relaxed mt-4">
-            نحن مؤسسة{" "}
+            نحن {" "}
             <span className="text-navy font-bold">
               شبكة نون للأنظمة الأمنية
             </span>

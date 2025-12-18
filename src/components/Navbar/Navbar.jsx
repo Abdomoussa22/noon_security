@@ -97,7 +97,7 @@ export default function Navbar() {
             className="h-14 w-14 object-cover rounded-full shadow"
           />
           <div className="text-right leading-tight">
-            <h1 className="text-lg font-bold text-navy">مؤسسة شبكة نون</h1>
+            <h1 className="text-lg font-bold text-navy"> شبكة نون</h1>
             <p className="text-sm font-semibold text-navy">
               للأنظمة الامنية
             </p>

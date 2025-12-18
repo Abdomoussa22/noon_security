@@ -22,7 +22,7 @@ export default function Footer() {
           {/* Text */}
           <div className="text-center">
             <p className="text-lg font-medium">
-              © {new Date().getFullYear()} مؤسسة شبكة نون للأنظمة الأمنية
+              © {new Date().getFullYear()}  شبكة نون للأنظمة الأمنية
             </p>
           </div>
 
