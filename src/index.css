@@ -1,0 +1,66 @@
+
+/* TAILWIND LAYERS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL CSS */
+:root {
+  --navy:#1C7C7A ;
+  --gold: #F2A12C;
+}
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+/* RTL tweaks for some components */
+html[dir="rtl"] .ltr\:ml-auto {
+  margin-left: auto;
+}
+
+/* تخصيص Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #0a2a43, #1d4257, #e7c96b);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: linear-gradient(to bottom, #D4AF37, #e7c96b, #fff7d1);
+}
+
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 35px rgba(11, 26, 59, 0.12);
+}
+
+.btn-navy {
+  background-color: var(--navy);
+  color: white;
+}
+.btn-gold {
+  background-color: var(--gold);
+  color: var(--navy);
+  border: 1px solid rgba(200, 155, 47, 0.15);
+}
+
+/* Responsive image utility */
+.img-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
